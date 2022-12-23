@@ -6,7 +6,7 @@ Construccion de la pagina principal de un portal de noticias, que se adapta a di
 
 ✅ HTML
 ✅ CSS
-✅ JavasCript
+✅ JavaScript
 
 
 [Preview desktop](/assets/images/desktop_preview.png)
