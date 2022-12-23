@@ -1,0 +1,119 @@
+@media screen and (max-width: 810px) {
+
+    /*top header menu container*/
+    .main-header__nav {
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    /*Top header button open menu*/
+    .mani-header__btn {
+        visibility: visible;
+        width: auto;
+        cursor: pointer;
+    }
+
+    /*Top header button close menu*/
+    .btn__close-menu {        
+        width: 2rem;
+        position: absolute;
+        top: 2rem;
+        right: 1.2rem;        
+    }
+
+    /* Top header list */
+    .main-header__list {    
+        visibility: hidden;
+        position: absolute;        
+        flex-direction: column;
+        background-color: #ffffff;        
+        left: 184.567px;
+        right: 0;
+        top: 0;
+        padding-left: 2rem;       
+        padding-top: 82px;
+        margin-top: 0px;    
+    }
+
+    .active{
+        visibility: visible;
+    }
+
+    /*menu list Item */
+    .main-header__item{
+        margin: 1.8rem 0 ;
+    }
+
+    /*Link top menu*/
+    .main-header__link{
+        margin: 0;
+    }     
+
+    
+
+    /*Last news*/
+    .important-news {
+        flex-direction: column;
+    }
+
+    .important-news__image {
+        height: 15rem;
+    }
+
+    /*Importan News*/
+    .important-news__header {
+        flex-direction: column;
+    }
+
+    /*Title*/
+    .important-news__title {
+        margin: 1rem 0;
+    }
+
+    /*New preview*/
+    .important-news__section {
+        margin: 0;
+    }
+
+    /*Text*/
+    .important-news__fragment {
+        text-align: justify;
+    }
+
+    /*Boton read more*/
+    .important-news__btn-more {
+        margin: 1rem auto;
+    }
+
+    /*List last news*/
+    .last-news {
+        margin: 1rem 0;
+    }
+
+    /*Podium news*/
+    .top-news__podium {
+        flex-direction: column;
+    }
+
+    /**/
+    .top-news__display {
+        margin-bottom: 2rem;
+    }
+
+    /*number rankin top news*/
+    .top-news__position {
+        font-size: 2rem;
+    }
+
+    /*title podium news*/
+    .top-news__title {
+        margin: 0.5rem 0;
+    }
+
+    /*preview podium news*/
+    .top-news__fragment {
+        margin: 0.5rem 0;
+    }
+
+
+}
